@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+<body>
+    <main>
+
+        <div class="container-1">
+
+            
+                <div class="display" id="display" ></diV>
+
+                <div class="button">
+                  <button class=" btn btn-7" id="btn"onclick="appendNumber(7)">7 </button>
+                  <button class=" btn btn-8" onclick="appendNumber(8)">8 </button>
+                  <button class=" btn btn-9" onclick="appendNumber(9)">9</button>
+                  <button class="btn btn-del" id="delet">DEL </button>
+                  <button class="btn btn-4" onclick="appendNumber(4)">4</button>
+                  <button class="btn btn-5" onclick="appendNumber(5)">5 </button>
+                  <button class="btn btn-6" onclick="appendNumber(6)">6 </button>
+                  <button class="btn btn-plus" onclick="appendOperator('+')">+ </button>
+                  <button class="btn btn-1" onclick="appendNumber(1)">1 </button>
+                  <button class="btn btn-2" onclick="appendNumber(2)">2 </button>
+                  <button class="btn btn-3" onclick="appendNumber(3)">3 </button>
+                  <button class="btn btn-subtract" onclick="appendOperator('-')">- </button>
+                  <button class="btn btn-decimal" onclick="appendDot()">. </button>
+                  <button class="btn btn-0" onclick="appendNumber(0)">0 </button>
+                  <button class="btn btn-/" onclick="appendOperator('/')">/ </button>
+                  <button class="btn btn-*" onclick="appendOperator('*')">* </button>
+                  <button class="btn btn-reset" id="reset">RESET</button>
+                  <button class="btn btn-operation" id="operation">=</button>
+                   
+                </div>
+            
+        </div>
+
+
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
